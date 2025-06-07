@@ -1,0 +1,7 @@
+django
+psycopg2-binary
+djangorestframework
+python-dotenv
+python-jose
+requests
+weasyprint

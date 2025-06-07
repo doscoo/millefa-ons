@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Lettre Simple</title>
+    <style>
+        body { font-family: sans-serif; margin: 2cm; }
+        h1 { color: #333; }
+        .content { margin-top: 20px; }
+        .footer { margin-top: 40px; font-size: 0.8em; color: #777; }
+    </style>
+</head>
+<body>
+    <h1>Objet: {{ object }}</h1>
+    <div class="content">
+        <p>Cher/Chère {{ recipient_name }},</p>
+        <p>{{ body_content }}</p>
+        <p>Cordialement,</p>
+        <p>{{ sender_name }}</p>
+    </div>
+    <div class="footer">
+        Généré par la Plateforme Juridique Numérique OHADA - {{ generation_date }}
+    </div>
+</body>
+</html>

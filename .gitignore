@@ -1,0 +1,22 @@
+# Python
+*.py[cod]
+*.pyo
+__pycache__/
+.env
+venv/
+*.egg-info/
+dist/
+build/
+
+# Django
+*.log
+db.sqlite3
+media/
+static_collected/
+
+# Backend specific
+backend/.env
+
+# OS / Editor specific
+.DS_Store
+*.swp
